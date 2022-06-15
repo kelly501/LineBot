@@ -1,6 +1,8 @@
 from linebot import LineBotApi
 import random
 from linebot.models import TextSendMessage
+import UUID
+import TOKEN
 
 line_uuid = UUID
 token = TOKEN
