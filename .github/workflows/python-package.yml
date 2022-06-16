@@ -7,7 +7,7 @@ on:
   push:
     schedule:
       interval: "daily"
-      time: "09:00"
+      time: "22:21"
       # Use Japan Standard Time (UTC +09:00)
       timezone: "Asia/Taipei"
     branches:
