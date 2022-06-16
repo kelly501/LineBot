@@ -5,7 +5,9 @@ name: Python package
 
 on:
   push:
-  
+    interval: "daily"
+      time: "22:17"
+      timezone: "Asia/Taipei"
     branches:
       - main
 jobs:
