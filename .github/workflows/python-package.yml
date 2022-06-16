@@ -4,13 +4,13 @@
 name: Python package
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
+  
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  schedule:
+    - cron: "*/1 * * * *"
 jobs:
   build:
 
