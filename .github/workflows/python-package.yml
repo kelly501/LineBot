@@ -4,8 +4,9 @@
 name: Python package
 
 on:
-  branches:
-      - Github-Actions
+  push:
+    branches:
+      - master
   schedule:
     - cron: "*/1 * * * *"
 jobs:
