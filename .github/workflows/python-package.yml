@@ -5,8 +5,10 @@ name: Python package
 
 on:
   push:
-    interval: "daily"
-      time: "22:17"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      # Use Japan Standard Time (UTC +09:00)
       timezone: "Asia/Taipei"
     branches:
       - main
