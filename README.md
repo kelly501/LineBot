@@ -1,2 +1,2 @@
 > **Note**  
-> 將抽籤結果由LINEBOT傳送到LINE上
+> 每天早上將抽籤結果由LINEBOT傳送到LINE上
