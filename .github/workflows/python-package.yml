@@ -5,7 +5,7 @@ name: Python package
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs every 5 mins
+    - cron: '0 1 * * *'
   workflow_dispatch:
 jobs:
   build:
