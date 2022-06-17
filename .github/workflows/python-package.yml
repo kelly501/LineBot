@@ -4,21 +4,16 @@
 name: Python package
 
 on:
-  push:
-    schedule:
-      interval: "daily"
-      time: "08:00"
-      # Use Japan Standard Time (UTC +09:00)
-      timezone: "Asia/Taipei"
-    branches:
-      - main
+  schedule:
+    - cron: '*/5 * * * *' # Runs every 5 mins
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.5"]
+        python-version: ["3.8"]
 
     steps:
     - uses: actions/checkout@v3
